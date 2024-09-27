@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float number1, number2, number3, sum, average;
+    
+    cout<< "write number:\n";
+    cout<< "number one:";
+    cin>> number1;
+    cout<< "number two:";
+    cin>> number2;
+    cout<< "number three:";
+    cin>> number3;
+    
+    sum = number1 + number2 + number3;
+    average = sum/3;
+    
+    cout<<"average:"<<average;
+    
+    return sum;
+}
